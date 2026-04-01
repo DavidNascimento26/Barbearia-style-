@@ -1,0 +1,136 @@
+
+Library
+Tasks
+Publishing
+1 build failed
+— about 1 hour ago
+Your published app will expire in 29 days. Upgrade to keep your published app running.
+Production
+Status
+DVDZINx published about 1 hour ago
+Visibility
+Public
+Type
+Autoscale
+(2 vCPU / 4 GiB RAM / 1 Max)
+See all usage
+Expiration
+5/1/2026
+Barbearia Style
+style-barbearia--DVDZINxFF.replit.app 
+Preview
+Agent
+Website
+Aja como um Desenvolvedor Senior Full-Stack e Web Designer focado em alta conversão para negócios locais. Crie uma Landing Page "Single Page" (página única) para a "Barbearia Style" de Campina Grande.
+
+O site deve ter um visual "Dark Mode Premium", com fundo escuro (#121212), texto branco e detalhes, ícones e botões em Dourado (#D4AF37). O design deve ser Mobile-First (perfeito no celular).
+
+📍 DADOS REAIS DO CLIENTE (OBRIGATÓRIOS):
+
+Nome do Negócio: Barbearia Style
+Endereço Real: Dinamérica, Campina Grande - PB, 58430-050
+WhatsApp para Contato: +55 83 98783-0277 (Número do dono)
+Horário de Funcionamento: Terça a Sábado (08:30 às 19:30). Segunda e Domingo: Fechado.
+🧱 ESTRUTURA DO SITE E USO DAS IMAGENS REAIS:
+
+HEADER FIXO:
+Lado Esquerdo: O nome "Barbearia Style" em texto dourado estilizado com uma fonte 'Montserrat' ou 'Inter' (Google Fonts).
+Lado Direito: Menu simples com scroll suave para (Serviços, Sobre, Localização, Agendar).
+A imagem que tem escrito Allan style pode ser usada como uma logo ou banner
+
+HERO SECTION (CARROSSEL DE FUNDO):
+Implemente um carrossel de tela cheia (full-height) com transições suaves (fade).
+Aplique um overlay escuro (rgba(0,0,0,0.65)) sobre todas as fotos para legibilidade.
+Use 3 arquivos que carreguei para
+Texto Central em destaque: "O Estilo que Define Você" e subtítulo "A melhor experiência em corte e barba de Campina Grande".
+Botão CTA Principal: "RESERVAR MEU HORÁRIO" (Estilo dourado).
+SEÇÃO SOBRE NÓS:
+Use a imagem que tem um Painel de TV como imagem de apoio.
+Texto: "Com nota 4.8 no Google Maps, a Barbearia Style é referência no bairro Dinamérica. Nosso ambiente climatizado e equipe experiente garantem o melhor resultado para o seu visual."
+SEÇÃO DE SERVIÇOS E PREÇOS:
+Use a imagem 'servicos.jpg' (Sofá de espera) como fundo com um overlay escuro de 80%.
+Crie cards dourados e elegantes para listar os preços:
+Corte Degradê - R$ 30
+Barba Terapia - R$ 25
+Combo VIP - R$ 50
+FORMULÁRIO DE AGENDAMENTO (LÓGICA VIA WHATSAPP):
+Um formulário simples pedindo: Nome, Serviço (dropdown), Data e Hora.
+AÇÃO DO BOTÃO "CONFIRMAR AGENDAMENTO": Ao clicar, valide os campos e abra uma janela do WhatsApp para o número +55 83 98783-0277 com a mensagem pré-montada: "Olá! Sou o [NOME] e quero agendar o serviço [SERVIÇO] para o dia [DATA] às [HORA]. Está disponível?".
+RODAPÉ, LOCALIZAÇÃO E MAPA:
+Inclua o endereço completo e o horário de funcionamento.
+Mencione a excelente avaliação de 4.8 estrelas no Google Maps.
+Adicione um mapa do Google Maps (iframe) apontando para o bairro Dinamérica.
+Inclua um botão flutuante do WhatsApp no canto inferior direito.
+⚙️ REQUISITOS TÉCNICOS:
+
+Use HTML5 semântico, CSS3 puro (com Flexbox/Grid) e JavaScript para o carrossel e scroll suave.
+Código limpo e responsivo. Não use bibliotecas externas pesadas.
+Want users to get these changes? Republish this App.
+Eu sou um Desenvolvedor Senior e quero atualizar o design do site da "Barbearia Style" em Campina Grande com dois grandes ajustes visuais para maximizar a conversão
+
+🛒 INSTRUÇÕES DE ARQUIVOS (FOTOS REAIS):
+
+Upload o ficheiro 'image_5.png' (Logo Metálica Allan Style) e chame-o de logo-allan.png.
+Upload o ficheiro 'image_3.png' (Sofá Marrom) e chame-o de vitrine-style.jpg.
+🧱 AJUSTES DE DESIGN EXIGIDOS:
+
+Destaque Central da Logo (em vez de Header simples):
+Substitua o logo simples no Header (superior esquerdo) por um posicionamento centralizado e maior.
+No topo do site, logo abaixo do Header, crie um elemento flutuante central com a imagem logo-allan.png.
+Aplique o seguinte CSS para integrá-lo:
+display: block; margin: 0 auto; max-width: 250px; z-index: 10; position: absolute; top: -50px; (Ajuste o posicionamento para que ele pareça flutuar entre o topo e o início do carrossel).
+Adicione um sombreamento dourado sutil: box-shadow: 0 0 15px rgba(212, 175, 55, 0.4); para fazê-lo saltar da tela.
+Seção do Sofá como "Vitrine de Estilo" (em vez de apenas Texto):
+Na secção que usa a imagem do sofá marrom (vitrine-style.jpg), mude a lógica. Não use apenas texto dourado por cima.
+Use a imagem do sofá como fundo completo da secção com um overlay escuro (rgba(0,0,0,0.85)).
+Crie um "Mural de Galeria" sobreposto com 3 pequenos cards dourados, cada um representando um estilo de corte real que a barbearia faz. Use ícones dourados ou placeholder de fotos (pequenas):
+Card 1: Corte Degradê Moderno (R$ 30) - Com ícone de tesoura.
+Card 2: Barba Terapia (R$ 25) - Com ícone de navalha.
+Card 3: Corte Clássico (R$ 25) - Com ícone de pente.
+Título da Seção: "Escolha o Estilo que Combina com Você" e Subtítulo: "A Barbearia Style na Dinamérica é referência em cortes precisos."
+Call to Action (CTA) e Agendamento:
+Garanta que o botão "RESERVAR MEU HORÁRIO" (dourado e flutuante) esteja sempre visível e funcione mandando os dados certinho para o WhatsApp do dono (+55 83 98783-0277).
+Também quero que melhore a forma que a mensagem vai ser enviar no whatsapp do barbeiro pois está tudo junto sem organização e espaçamento bonitos
+Carreguei abaixo a logo
+Gere e rode o projeto com estas melhorias.
+
+Eu preciso de um refinamento urgente de UI/UX no site da "Barbearia Style" em Campina Grande. O foco é organização, centralização e dar propósito às seções.
+
+USE OS DADOS REAIS DO MAPS PARA A BARBEARIA STYLE NA DINAMÉRICA.
+
+🛒 INSTRUÇÕES DE ARQUIVOS (FOTOS REAIS):
+
+Upload o ficheiro 'image_5.png' (Logo Metálica Allan Style) e chame-o de logo-allan.png.
+Upload o ficheiro 'image_9.png' (Painel da TV) e chame-o de mural-estilo.jpg.
+🧱 CORREÇÕES DE DESIGN E ESTRUTURA EXIGIDAS:
+
+Limpeza do Header e Centralização da Logo (Corrigindo image_6.png):
+No Header (barra superior): Remova COMPLETAMENTE qualquer imagem ou ícone no canto superior esquerdo. Mantenha apenas o menu hambúrguer dourado no canto superior direito.
+No topo da seção Hero (Carrossel), abaixo do Header: Centralize a imagem logo-allan.png. Use display: block; margin: 0 auto; max-width: 250px; position: relative; z-index: 10;. Certifique-se de que ela esteja perfeitamente alinhada no meio da tela do telemóvel.
+Consolidação da Seção de Serviços (Removendo Duplicidade):
+Verifique todo o código e certifique-se de que existe apenas UMA seção chamada "Nossos Serviços".
+Remova qualquer outra seção que liste serviços ou preços. Mantenha apenas a seção com o título dourado "Nossos Serviços" e os cards de:
+Corte Degradê (R$ 30) - Ícone de tesoura.
+Barba Terapia (R$ 25) - Ícone de navalha.
+Corte Clássico (R$ 25) - Ícone de pente.
+Dar Propósito à Imagem da TV/Painel (image_9.png):
+A seção que usa a foto mural-estilo.jpg (Painel da TV) está "vaga". Vamos transformá-la na seção "Nosso Mural de Estilo".
+Posicione a foto do painel como uma galeria em destaque ao lado do texto.
+Adicione o seguinte texto à seção: "Fique por dentro das últimas tendências de corte e barba enquanto relaxa no nosso ambiente climatizado. Nosso mural é a tua inspiração para o próximo visual na Dinamérica."
+Gere e rode o projeto com estas correções.
+
+Use a imagem carregada no site, aonde você achar que combina com a estrutura
+
+Faça no final uma verificação para ver se tudo foi atendido e te dou liberdade para inovar algo que acha que pode melhor seguindo o modelo, peço que lebre de centralizar a logo e deixar somente uma área para "nossos serviços" aonde oferecem os cortes
+
+1 use essa logo e remova a outra, tenha atenção para deixar esse círculo certinho no site, quero que fique perfeitamente com o círculo do site preenchendo todas a borda prata
+
+2 quero que remova a imagem do sofá após o carrossel de imagem, não quero mais essa imagem ali quando rola o site é a primeira coisa que aparece
+
+3 não quero mais a secção de nosso mural e também remova essa imagem da tv
+
+4 faça uma correção final para verificar tudo e certifique a escrita "ambiente climatizado"esteja dentro do quadrado dele e não para fora
+
+5-adcione essa segunda imagem carregada no site, para ser a primeira coisa que aparece dentro do carrossel de imagem, somente isso. Adicione ela no carrossel, ou seja só quero imagens no site no carrossel, não quero mais imagens nenhuma
+
+6 adicione mais coisas escritas se quiser e for necessário e essencial, te dou essa liberdade
